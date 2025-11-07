@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Asad</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Asad</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <div class="project">
+        <h3>AI Vibration Classifier</h3>
+        <p>Built a CNN-based classifier for OK/NOK detection in powered window regulators.</p>
+      </div>
+      <div class="project">
+        <h3>Solar Thermal Power Plant Analysis</h3>
+        <p>Performed detailed techno-economic modeling of a 50 MW CSP system.</p>
+      </div>
+      <div class="project">
+        <h3>Real-Time DAQ + AI System</h3>
+        <p>Developed a live OPC UA-based classification and control setup using TensorFlow.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Asad. All rights reserved.</p>
+  </footer>
+</body>
+</html>
