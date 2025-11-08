@@ -3,33 +3,71 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About | Asad</title>
+  <title>Asad | Home</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <h1>Asad</h1>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html" class="active">About</a></li>
+
+  <!-- Header -->
+  <header id="header">
+    <nav class="navbar">
+      <div class="logo">Asad</div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </nav>
   </header>
 
-  <section>
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <h1>Hello, I’m Asad 👋</h1>
+    <p>Engineer | Researcher | Innovator</p>
+    <a href="projects.html" class="btn">View My Work</a>
+  </section>
+
+  <!-- Home Content -->
+  <section id="home-content">
+    <h2>Bio</h2>
+    <p>Head of Department, Mechanical Engineering Technology, UoT Nowshera | PhD Researcher, University of Genova | AI & ML in Predictive Maintenance | Condition-Based Monitoring | Energy Systems Engineer | Mechanical Engineer</p>
+
     <h2>About Me</h2>
-    <p>
-      I’m an engineer passionate about intelligent systems, automation,
-      and AI-based diagnostics. My background includes vibration analysis,
-      machine learning, and renewable energy modeling.
-    </p>
+    <p>I'm a PhD researcher in Mechanical Engineering with a strong focus on image classification and fault detection, especially applied to mechanical systems. My work integrates deep learning, signal processing, and real-world diagnostics. I have expertise in Mechanical Systems, Predictive Maintenance, Condition-Based Monitoring, Vibration Analysis, Data-Driven Maintenance, Fault Detection, Industry 4.0 & Smart Manufacturing, Machine Learning, Deep Learning, Data Analytics, Data Science for Engineers, AI In Mechanical and Energy Engineering, and Machine Learning for Industrial Applications and Quality Control.</p>
+
+    <h2>Current Focus</h2>
+    <ul>
+      <li>Developing CNN-based models for vibration and acoustic signal analysis</li>
+      <li>Converting time-series data into spectrograms for image-based deep learning</li>
+      <li>Exploring real-time fault detection pipelines in manufacturing environments</li>
+    </ul>
+
+    <h2>Open to Collaborate On</h2>
+    <ul>
+      <li>Deep learning projects related to image/audio-based classification</li>
+      <li>Fault detection systems using accelerometer data</li>
+      <li>Research using noisy, real-world datasets</li>
+    </ul>
+
+    <h2>Tools & Technologies</h2>
+    <ul>
+      <li>Python, TensorFlow, Keras, PyTorch</li>
+      <li>Signal Processing, STFT, Spectrograms</li>
+      <li>Scikit-learn, Pandas, NumPy</li>
+      <li>OpenCV, Matplotlib, Seaborn</li>
+    </ul>
   </section>
 
   <footer>
-    <p>© 2025 Asad. All rights reserved.</p>
+    <p>© 2025 Asad. Built with ❤️ using GitHub Pages.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
